@@ -547,7 +547,7 @@ a.navbar-brand img {
 
 nav.main-menu ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 
