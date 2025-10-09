@@ -528,7 +528,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   position: absolute;
   z-index: 999;
   width: 100%;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 .top-header-area.white ul.navbar-nav li.nav-item a.nav-link, .top-header-area.white ul.navbar-nav li.nav-item.active a.nav-link {
@@ -547,9 +547,9 @@ a.navbar-brand img {
 
 nav.main-menu ul {
   margin: 0;
-  padding: 10px;
+  padding: 18px;
   list-style: none;
-  margin-left: 20rem;
+  margin-left: 45rem;
   
 }
 
@@ -673,7 +673,7 @@ nav.mean-nav > ul > li:first-child > a {
 }
 
 .site-logo {
-  padding: 6px 0;
+  padding: 0px 0;
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
@@ -1413,7 +1413,7 @@ html, body {
   color: #F28123;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 7px;
+  letter-spacing: 6px;
   font-size: 15px;
 }
 
