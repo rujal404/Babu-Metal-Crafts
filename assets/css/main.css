@@ -74,7 +74,7 @@ h1, .h1 {
 
 @media only screen and (max-width: 767.96px) {
   h1, .h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 3.25rem;
   }
 }
@@ -1413,7 +1413,7 @@ html, body {
   color: #F28123;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   font-size: 15px;
 }
 
