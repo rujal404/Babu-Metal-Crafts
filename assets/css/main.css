@@ -1251,6 +1251,10 @@ a.cart-btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  font-weight: 700;
+  background-color: #F28123;
+  color: #ffffff;
+  padding: 15px;
 }
 
 a.cart-btn:hover {
