@@ -30,6 +30,8 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- Gallery -->
+	<link rel="stylesheet" href="assets/css/gallery.css">
 
 </head>
 <body>
@@ -271,117 +273,6 @@
   <span class="next">&#10095;</span>
 </div>
 
-<style>
-/* --- GALLERY GRID --- */
-.my-custom-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -10px;
-  margin-top: 60px;
-}
-
-.gallery-item {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-/* --- SQUARE THUMBNAIL WRAPPER --- */
-.square-thumb {
-  position: relative;
-  width: 100%;
-  padding-top: 100%; /* 1:1 ratio */
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.square-thumb img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Makes all thumbs square */
-  transition: transform 0.3s ease;
-}
-
-.square-thumb img:hover {
-  transform: scale(1.05);
-}
-
-/* --- RESPONSIVE COLUMNS --- */
-@media (min-width: 360px) {
-  .gallery-item { width: 50%; }
-}
-@media (min-width: 600px) {
-  .gallery-item { width: 33.33%; }
-}
-@media (min-width: 900px) {
-  .gallery-item { width: 25%; }
-}
-
-/* --- LIGHTBOX POPUP --- */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.9);
-  overflow: hidden;
-  text-align: center;
-}
-
-.lightbox-img {
-  max-width: 90%;
-  max-height: 80vh;
-  margin: auto;
-  border-radius: 10px;
-  transition: opacity 0.4s ease;
-  opacity: 1;
-}
-
-/* --- CLOSE BUTTON --- */
-.close-btn {
-  position: absolute;
-  top: 25px;
-  right: 35px;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 10000;
-  transition: 0.3s;
-}
-
-.close-btn:hover {
-  color: #f44336;
-}
-
-/* --- NAVIGATION ARROWS --- */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  padding: 16px;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  user-select: none;
-  transition: 0.3s;
-}
-
-.prev { left: 10%; }
-.next { right: 10%; }
-
-.prev:hover, .next:hover {
-  color: #f44336;
-}
-</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
