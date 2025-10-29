@@ -1,7 +1,7 @@
 // Inspect disable
 
     document.addEventListener("contextmenu", function(event){
-      alert("Inspect Elements Not Allowed");
+      // alert("Inspect Elements Not Allowed");
       event.preventDefault();
     })
     document.addEventListener('contextmenu',(e)=>{
