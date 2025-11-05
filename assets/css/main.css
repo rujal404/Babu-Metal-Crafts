@@ -70,12 +70,14 @@ h1, .h1 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 4rem;
+  font-family: aboreto;
 }
 
 @media only screen and (max-width: 767.96px) {
   h1, .h1 {
     font-size: 2rem;
     line-height: 3.25rem;
+    font-family: aboreto;
   }
 }
 
@@ -83,6 +85,7 @@ h1, .h1 {
   h1, .h1 {
     font-size: 2.5rem;
     line-height: 2.75rem;
+    font-family: aboreto;
   }
 }
 
