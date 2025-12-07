@@ -484,7 +484,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
+  background-image: url(../img/banner/product_b.jpg);
 }
 
 .breadcrumb-text p {
@@ -508,7 +508,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   background-position: center center;
   position: relative;
   z-index: 1;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   padding-top: 200px;
 }
 
